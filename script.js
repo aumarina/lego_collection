@@ -1,5 +1,5 @@
 function copyLink() {
-    navigator.clipboard.writeText("https://public--main--lego-collection--aumar.ixdcoder.com/");
+    navigator.clipboard.writeText("https://aumarina.github.io/lego_collection/");
     let shareText = document.querySelector('#shareText');
     shareText.style.display = "inline-block";
 
