@@ -384,7 +384,7 @@ new Chart(numberOfBuildsBarChart, {
 });
 
 const myCollectionCsv =
-  "https://public--main--lego-collection--aumar.ixdcoder.com/datasets/my-collection.csv";
+  "https://aumarina.github.io/lego_collection/datasets/my-collection.csv";
 
 // Parse the file from .csv to .json
 d3.csv(myCollectionCsv).then(function (datapoints) {
@@ -469,7 +469,7 @@ d3.csv(myCollectionCsv).then(function (datapoints) {
 });
 
 const allSetsCsv =
-  "https://public--main--lego-collection--aumar.ixdcoder.com/datasets/all-sets.csv";
+  "https://aumarina.github.io/lego_collection/datasets/all-sets.csv";
 
 // Parse the file from .csv to .json
 d3.csv(allSetsCsv).then(function (datapoints) {
@@ -575,7 +575,7 @@ anychart.onDocumentReady(function () {
   ];
 
   var theData =
-    "https://public--main--lego-collection--aumar.ixdcoder.com/datasets/themes.json";
+    "https://aumarina.github.io/lego_collection/datasets/themes.json";
   fetch(theData)
     .then((response) => response.json())
     .then((data) => {
@@ -598,12 +598,12 @@ anychart.onDocumentReady(function () {
 var themeLineChart = document.getElementById("themeLineChart");
 
 var itemsReleasedByYearData =
-  "https://public--main--lego-collection--aumar.ixdcoder.com/datasets/items-released-by-year.json";
+  "https://aumarina.github.io/lego_collection/datasets/items-released-by-year.json";
 fetch(itemsReleasedByYearData)
   .then((response) => response.json())
   .then((allData) => {
     var myCollectionReleasedByYearData =
-      "https://public--main--lego-collection--aumar.ixdcoder.com/datasets/my-items-collected-released-by-year.json";
+      "https://aumarina.github.io/lego_collection/datasets/my-items-collected-released-by-year.json";
     fetch(myCollectionReleasedByYearData)
       .then((response) => response.json())
       .then((myData) => {
