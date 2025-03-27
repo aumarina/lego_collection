@@ -1,0 +1,591 @@
+html {
+  scroll-behavior: smooth;
+  /* background-color: #f8f6f6; */
+  overflow-x: hidden;
+  /* width: 100%; */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Alexandria', sans-serif;
+  overflow-x: hidden;
+  background-color: #fffefe;
+  font-family: "Alexandria", serif;
+}
+
+/* ______________ GRID ______________ */
+.grid {
+  padding: 8%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  max-width: 2000px;
+  margin: 0 auto;
+  /* grid-gap: 20px; */
+  box-sizing: border-box;
+}
+
+/* .cell {
+  background-color: rgba(247, 247, 247, 0.13);
+} */
+
+/* default - small devices */
+[class*="col"] {
+  grid-column-end: span 12;
+}
+
+/* up to 800px typically phone */
+@media only screen and (max-width: 800px) {
+  .sm1 {
+    grid-column-end: span 12;
+  }
+
+  .sm2 {
+    grid-column-end: span 6;
+  }
+
+  .sm3 {
+    grid-column-end: span 4;
+  }
+
+  .sm4 {
+    grid-column-end: span 3;
+  }
+
+  .sm6 {
+    grid-column-end: span 2;
+  }
+
+  .sm12 {
+    grid-column-end: span 1;
+  }
+
+  .hideMobile {
+    display: none;
+  }
+
+  /* TYPOGRAPHY */
+  h1, h2, h3, h4 {
+    margin: 1rem 0!important;
+  }
+  
+  h1 {
+    font-size: 3rem!important;
+    line-height: 4rem!important;
+    margin: 0;
+  }
+  
+  h2 {
+  font-size: 2rem!important;
+  }
+  
+  h3 {
+    font-size: 1.5rem!important;
+  }
+  
+  h4 {
+    font-size: 1.2rem!important;
+  }
+  
+  p {
+    font-size: 1rem!important;
+  }
+  
+  small {
+    font-size: 1rem;
+  }
+}
+
+
+/* 801px to 1024px typically tablet */
+/* @media only screen and (max-width: 1169px) { */
+@media only screen and (min-width: 801px) {
+  #screentoosmall {
+    display: none;
+  }
+
+  .md1 {
+    grid-column-end: span 12;
+  }
+
+  .md2 {
+    grid-column-end: span 6;
+  }
+
+  .md3 {
+    grid-column-end: span 4;
+  }
+
+  .md4 {
+    grid-column-end: span 3;
+  }
+
+  .md6 {
+    grid-column-end: span 2;
+  }
+
+  .md12 {
+    grid-column-end: span 1;
+  }
+}
+
+
+/* above 1025px typically desktop */
+@media only screen and (min-width: 1170px) {
+  .col1 {
+    grid-column-end: span 12;
+  }
+
+  .col2 {
+    grid-column-end: span 6;
+  }
+
+  .col3 {
+    grid-column-end: span 4;
+  }
+
+  .col4 {
+    grid-column-end: span 3;
+  }
+
+  .col6 {
+    grid-column-end: span 2;
+  }
+
+  .col12 {
+    grid-column-end: span 1;
+  }
+
+  .span5 {
+    grid-column-end: span 5;
+  }
+
+  .span7 {
+    grid-column-end: span 7;
+  }
+
+  .grid {
+    grid-gap: 20px;
+  }
+
+  #overviewTop {
+    margin-right: 100px;
+  }
+}
+
+/* ______________ TYPOGRAPHY ______________ */
+h1, h2, h3, h4, h5, h6, p {
+  font-weight: 400;
+  letter-spacing: -0.05em;
+  font-family: 'Alexandria', sans-serif;
+}
+
+/* 76 builds */
+h1 {
+  font-size: 5.5rem;
+  line-height: 7.3rem;
+  margin: 0;
+  /* line-height: 1.7rem; */
+  /* font-size: 64px; */
+}
+
+/* My favourite build */
+h2 {
+font-size: 3.3rem;
+line-height: 1.7rem;
+}
+
+/* Build names in list */
+h3 {
+  font-size: 2.1rem;
+}
+
+/* of 21,205 LEGO sets */
+h4 {
+  font-size: 1.6rem;
+}
+
+p {
+  font-size: 1.35rem;
+}
+
+small {
+  font-size: 1rem;
+}
+
+.registeredTrademark {
+  font-size: 0.5em;
+  vertical-align: top;
+  position: relative;
+  top: 0.3em;
+  left: 0.1em;
+}
+
+img {
+  object-fit: contain;
+}
+
+/* ______________ ALL ______________ */
+#sectionOverview {
+  min-height: 100px;
+  background-color: #FBFBFB;
+}
+
+#sectionAnalysis {
+  min-height: 100px;
+  background-color: #FFD400;
+}
+
+#sectionHistory {
+  min-height: 100px;
+  background-color: #2B1464;
+  color: white;
+}
+
+#sectionShare {
+  min-height: 100px;
+  background-color: #D01012;
+  color: #FFFFFF;
+}
+
+#sectionEnd {
+  min-height: 150px;
+  background-color: #9D0B0F;
+  color: #FFFFFF;
+}
+
+.button {
+  stroke: white;
+  stroke-width: 3px;
+  width: 80px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.button:hover {
+  transform: rotate(4deg);
+}
+
+.chart {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  width: 100%;
+  /* height: auto; */
+}
+
+/* ______________ SECTION: OVERVIEW ______________ */
+#favouriteBuild {
+  background-color: #FFE06A;
+  height: 400px;
+}
+
+#favouriteBuildImg {
+  width: 110%;
+  position: relative;
+  right: 80px;
+  bottom: 30px;
+}
+
+.scrollableBuilds {
+  height: 723px;
+  overflow-y: scroll;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin: 0;
+  padding: 20px;
+  grid-gap: 25px;
+}
+
+.scrollableBuilds::-webkit-scrollbar {
+  width: 20px;
+}
+
+.scrollableBuilds::-webkit-scrollbar-track {
+  background-color: #D9D9D9;
+  border-radius: 10px;
+}
+ 
+.scrollableBuilds::-webkit-scrollbar-thumb {
+  background: #d43131; 
+  border-radius: 10px;
+}
+
+.scrollableBuilds::-webkit-scrollbar-thumb:hover {
+  background: #e62326; 
+}
+
+
+.scrollableBuilds div h3 {
+  margin: 0;
+}
+
+.scrollableBuilds div p {
+  margin: 0.8rem 0;
+}
+
+.scrollableBuildsImgContainer {
+  height: 154px;
+  text-align: center;
+  max-width: 280px;
+}
+
+.scrollableBuildsImg {
+  max-width: 90%;
+  height: 100%;
+  position: relative;
+  top: 15px;
+}
+
+/* ______________ SECTION: ANALYSIS ______________ */
+#flourishDoughnut {
+  border: 2px solid black;
+  box-sizing: border-box;
+  transform: rotate(3deg);
+  width: 100%;
+
+  transition: all 0.3s;
+}
+
+#flourishDoughnut iframe {
+  width: calc(100% - 1px)!important;
+}
+
+#flourishDoughnut:hover {
+  transform: rotate(3.5deg) translate(6px, -8px);
+  box-shadow: 11px 10px 3px #EBB81F;
+}
+
+.flourish-chart .flourish-credit {
+  display: none;
+}
+
+#bambooImg {
+  position: absolute;
+  /* width: 50%;
+  left: -390px;
+  transform: rotate(7deg) translateY(120px); */
+  /* width: 45%; */
+  /* right: 90px; */
+
+  width: 50%;
+  z-index: -1;
+  /* right: 380px; */
+  bottom: 470px;
+  right: 130px;
+  transform: rotate(15deg);
+
+  /* transform: rotate(15deg) translateY(-570px); */
+
+  transition: all 0.3s;
+}
+
+#flourishDoughnut:hover #bambooImg {
+  transform: rotate(13deg);
+  bottom: 490px;
+}
+
+#doughnutNumber, #doughnutParagraph {
+  transition: all 0.2s ease-out;
+}
+
+#doughnutNumber {
+  position: absolute;
+  font-size: 6rem;
+  left: 42.7%;
+  top: 46.5%;
+}
+
+#flourishDoughnut:hover #doughnutNumber {
+  opacity: 0;
+}
+
+#doughnutParagraph {
+  position: absolute;
+  top: 58%;
+  left: 39%;
+  font-size: 1.6rem;
+}
+
+#flourishDoughnut:hover #doughnutParagraph {
+  opacity: 0;
+}
+
+/* ______________ SECTION: HISTORY ______________ */
+#themeLineChart, #themeChart {
+  background-color: #22104f;
+  border: 2px solid #ffffff50;
+  /* border-radius: 5px; */
+  transition: all 0.2s ease-out;
+  box-shadow: 3px 4px 3px #180940;
+
+}
+
+/* Line chart */
+#themeLineChart {
+  z-index: 3;
+  padding: 30px;
+  transform: rotate(-2deg);
+}
+
+#themeLineChart:hover {
+  transform: rotate(-1deg) translate(6px, -2px);
+  box-shadow: 11px 10px 3px #180940;
+}
+
+/* Packed bubble chart */
+#themeChart {
+  padding: 30px 0px 0px 0px;
+  transform: rotate(1deg);
+}
+
+#themeChart:hover {
+  transform: rotate(-1deg) translate(-5px, -12px);
+  box-shadow: 11px 10px 3px #180940;
+}
+
+/* Millennium Falcon & Optimus Prime */
+.mostPieces {
+  position: relative;
+  height: 600px;
+  /* right: 190px; */
+  text-align: center;
+}
+
+.mostPieces img {
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#historyLego, #historyLegoCaption, #historyMe, #historyMeCaption {
+  position: relative;
+  right: 190px;
+}
+
+.historyCaption {
+  text-align: right;
+}
+
+#historyMe, #historyMeCaption {
+  display: none;
+}
+
+.mostPieces:hover #historyMe, .mostPieces:hover #historyMeCaption {
+  display: block;
+}
+
+.mostPieces:hover #historyLego, .mostPieces:hover #historyLegoCaption {
+  display: none;
+}
+
+/* System in Play & Coastal Guard */
+
+.oldestSet {
+  position: relative;
+  height: 650px;
+  bottom: 150px;
+  left: 100px;
+  text-align: center;
+}
+
+.oldestCaption {
+  text-align: right;
+}
+
+.oldestSet img {
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#oldestMe, #oldestMeCaption {
+  display: none;
+}
+
+
+.oldestSet:hover #oldestMe, .oldestSet:hover #oldestMeCaption {
+  display: block;
+}
+
+.oldestSet:hover #oldestLego, .oldestSet:hover #oldestLegoCaption {
+  display: none;
+}
+
+#wordCloudImg, #wordCloud {
+  position: absolute;
+  transition: all 0.3s;
+
+}
+
+#wordCloudImg {
+  width: 60%;
+  /* height: 100%; */
+  right: -200px;
+  z-index: 1;
+}
+
+#wordCloud {
+  width: 30%;
+  /* height: 100%; */
+  aspect-ratio: 3 / 5;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  /* display: none; */
+  z-index: 2;
+}
+
+#wordCloud div {
+  /* border-radius: 20px; */
+  transform: rotate(6deg);
+}
+
+.wordCloudsContainer:hover #wordCloudImg {
+  opacity: 0;
+}
+
+.wordCloudsContainer:hover #wordCloud {
+  opacity: 1;
+}
+
+#wordCloud div svg g g g path {
+  fill: #180940;
+  /* fill: #2B1464; */
+}
+
+#wordCloud div svg g g g g text {
+  font-family: 'Alexandria', sans-serif;
+}
+
+.anychart-credits {
+  display: none;
+}
+
+.highcharts-background {
+  fill: none;
+}
+
+.highcharts-credits, .highcharts-exporting-group {
+  display: none;
+}
+
+.highcharts-title, .highcharts-subtitle {
+  font-family: 'Alexandria', sans-serif;
+}
+
+/* ______________ SECTION: SHARE ______________ */
+#endOrchid {
+  position: absolute;
+  right: 8%;
+  transform: scale(1.1) translateY(-320px);
+  /* bottom: 0; */
+  overflow: hidden;
+}
+
+#shareText {
+  display: none;
+  margin: 0;
+  position: relative;
+  bottom: 18px;
+}

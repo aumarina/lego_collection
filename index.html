@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Marina's LEGO Collection | LEGO&#174;</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- p5.js -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script> -->
+  <script src="libraries/p5.min.js"></script>
+  <script src="libraries/p5.sound.min.js"></script>
+
+  <script src="sketch.js"></script>
+
+  <!-- d3 js for working with csv files -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
+
+  <!-- chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
+
+  <!-- anyChart for word cloud data visualization -->
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-tag-cloud.min.js"></script>
+
+  <!-- highcharts -->
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+</head>
+
+<body>
+  <!-- Introduction -->
+  <div id="p5Collection"></div>
+
+  <!-- Overview -->
+  <div id="sectionOverview" class="grid">
+    <div class="cell span7 md1 sm1" id="overviewTop">
+      <h1>38 builds</h1>
+      <h4>of 24,659 LEGO<span class="registeredTrademark">&#174;</span> sets</h4>
+      <div class="chart">
+        <canvas id="numberOfBuildsBarChart" width="440" height="60">
+          <p>Bar Chart</p>
+        </canvas>
+      </div>
+      <h2>My favourite build</h2>
+      <h4>LEGO<span class="registeredTrademark">&#174;</span> Ideas: The Botanical Garden</h4>
+      <div id="favouriteBuild">
+        <img src="img/sets/21353.png" id="favouriteBuildImg">
+      </div>
+    </div>
+    <div class="cell span5 md1 sm1">
+      <h2>My builds</h2>
+      <div class="scrollableBuilds">
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #BEE2A3;">
+          <img src="img/sets/31128.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm1">
+          <h3>Dolphin and Turtle</h3>
+          <p>Creator 3-in-1 | 137 pcs</p>
+        </div>
+
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #A3BCE2;">
+          <img src="img/sets/10302.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Optimus Prime</h3>
+          <p>Icons | 1508 pcs</p>
+        </div>
+
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #F2D9A4;">
+          <img src="img/sets/10338.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Bumblebee</h3>
+          <p>Icons | 950 pcs</p>
+        </div>
+
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #BEE2A3;">
+          <img src="img/sets/76901.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Toyota GR Supra</h3>
+          <p>Speed Champions | 302 pcs</p>
+        </div>
+
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #BEE2A3;">
+          <img src="img/sets/31147.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Retro Camera</h3>
+          <p>Creator 3-in-1 | 261 pcs</p>
+        </div>
+
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #D3A4F2;">
+          <img src="img/sets/40421.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Belle Bottom, Kevin and Bob</h3>
+          <p>Brickheadz | 309 pcs</p>
+        </div>
+
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #BEE2A3;">
+          <img src="img/sets/60014.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Coast Guard Patrol</h3>
+          <p>Coast Guard | 450 pcs</p>
+        </div>
+        
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #BEE2A3;">
+          <img src="img/sets/42161.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Lamborghini Hurac&aacute;n Tecnica</h3>
+          <p>Technic | 806 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #F2ABA4;">
+          <img src="img/sets/10369.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Plum Blossom</h3>
+          <p>Icons | 327 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #BEE2A3;">
+          <img src="img/sets/42149.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Monster Jam Dragon</h3>
+          <p>Technic | 217 pcs</p>
+        </div>
+        
+        <!-- SLKTLAKSJDLAKJDLKAJSDLKAJDLKAJSDLKAJSLDKJASL -->
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #BEE2A3;">
+          <img src="img/sets/42173.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Koenigsegg Jesko</h3>
+          <p>Speed Champions | 283 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #BEE2A3;">
+          <img src="img/sets/21150.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Minecraft Skeleton BigFig with Magma Cube</h3>
+          <p>Minecraft | 142 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #BEE2A3;">
+          <img src="img/sets/11031.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Creative Monkey Fun</h3>
+          <p>Classic | 135 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #BEE2A3;">
+          <img src="img/sets/76903.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Chevrolet Corvette C8.R Race Car and 1969 Chevrolet Corvette</h3>
+          <p>Speed Champions | 515 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #BEE2A3;">
+          <img src="img/sets/60022.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Cargo Terminal</h3>
+          <p>Airport | 658 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #BEE2A3;">
+          <img src="img/sets/76918.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>McLaren Solus GT & McLaren F1 LM</h3>
+          <p>Speed Champions | 587 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #BEE2A3;">
+          <img src="img/sets/10262.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Aston Martin DB5</h3>
+          <p>Speed Champions | 298 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #BEE2A3;">
+          <img src="img/sets/76897.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>1985 Audi Sport Quattro S1</h3>
+          <p>Speed Champions | 253 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #BEE2A3;">
+          <img src="img/sets/40420.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Gru, Stuart and Otto</h3>
+          <p>Brickheadz | 244 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #BEE2A3;">
+          <img src="img/sets/42137.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Formula E Porsche 99X Electric</h3>
+          <p>Technic | 422 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #BEE2A3;">
+          <img src="img/sets/76912.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Fast & Furious 1970 Dodge Charger R/T</h3>
+          <p>Speed Champions | 345 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #BEE2A3;">
+          <img src="img/sets/21329.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Fender Stratocaster</h3>
+          <p>Ideas | 2079 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #BEE2A3;">
+          <img src="img/sets/76896.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Nissan GT-R NISMO</h3>
+          <p>Speed Champions | 301 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #BEE2A3;">
+          <img src="img/sets/10344.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Lucky Bamboo</h3>
+          <p>Botanicals | 325 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #BFF5A8;">
+          <img src="img/sets/31058.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Mighty Dinosaurs</h3>
+          <p>Creator 3-in-1 | 174 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #F2D9A4;">
+          <img src="img/sets/30659.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Flower Garden</h3>
+          <p>Friends | 64 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #F8E090;">
+          <img src="img/sets/30509.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Yellow Yoshi's Fruit Tree Expansion Set</h3>
+          <p>Super Mario | 46 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #A3E2CB;">
+          <img src="img/sets/76908.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Lamborghini Countach</h3>
+          <p>Speed Champions | 262 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #A8E9EB;">
+          <img src="img/sets/76909.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Mercedes-AMG F1 W12 E Performance & Mercedes-AMG Project One</h3>
+          <p>Speed Champions | 567 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #EBC29E;">
+          <img src="img/sets/75892.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>McLaren Senna GTR</h3>
+          <p>Technic | 830 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #EEA1B3;">
+          <img src="img/sets/10343.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Mini Orchid</h3>
+          <p>Botanicals | 274 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #B2EBA5;">
+          <img src="img/sets/30641.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Panda</h3>
+          <p>Creator 3-in-1 | 83 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #F09D9E;">
+          <img src="img/sets/42107.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Ducati Panigale V4 R</h3>
+          <p>Technic | 646 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #F2D9A4;">
+          <img src="img/sets/30662.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Maple's Pumpkin Garden</h3>
+          <p>Animal Crossing | 29 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #A1CFF2;">
+          <img src="img/sets/76917.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>2 Fast 2 Furious Nissan Skyline GT-R (R34)</h3>
+          <p>Speed Champions | 319 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #A3E2A3;">
+          <img src="img/sets/10281.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Bonsai</h3>
+          <p>Icons | 878 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #F9DF9F;">
+          <img src="img/sets/42122.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Jeep Wrangler</h3>
+          <p>Technic | 665 pcs</p>
+        </div>
+                
+        <div class="cell col4 md4 sm1 scrollableBuildsImgContainer" style="background-color: #96D2FF;">
+          <img src="img/sets/30642.png" class="scrollableBuildsImg">
+        </div>
+        <div class="cell col3 md3 sm3">
+          <h3>Birthday Train</h3>
+          <p>Creator | 58 pcs</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Analysis -->
+  <div id="sectionAnalysis" class="grid">
+    <div class="cell col2 md1">
+      <h1>Analyzing the collection</h1>
+      <br><br>
+      <!-- <div class="chart">
+        <canvas id="mostPiecesChart" height="280">
+        </canvas>
+      </div> -->
+
+      <h3>Your LEGO<span class="registeredTrademark">&#174;</span> sets sorted by number of pieces</h3>
+      <div class="flourish-embed flourish-chart" data-src="visualisation/21582980"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/21582980/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+    </div>
+    
+    <div class="cell col2 md1">
+      <div class="flourishStory">
+        <div class="flourish-embed" id="flourishDoughnut" data-src="story/2895890"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/story/2895890/thumbnail" width="100%" alt="visualization" /></noscript>
+          <img src="img/sets/10344.png" id="bambooImg">
+          <h1 id="doughnutNumber">38</h1>
+          <p id="doughnutParagraph">collected sets</p>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="cell col2 md2">
+    </div>
+  </div>
+
+  <!-- Historical comparison -->
+  <div id="sectionHistory" class="grid">
+    <div class="cell col1 md1">
+      <h1>Historical analysis</h1>    
+      <h3 style="letter-spacing: -0.03em;">How your collection compares to LEGO<span class="registeredTrademark">&#174;</span> history</h3>  
+    </div>
+
+    <div class="cell col2 md1">
+      <div class="mostPieces">
+        <img src="img/75192-high.png" id="historyLego">
+        <div class="historyCaption" id="historyLegoCaption">
+          <h4 style="margin: 0;">Millennium Falcon</h4>
+          <p style="margin: 7px 0;">
+            <small>Most # of pieces of all LEGO sets | 7541 pcs
+            </small>
+          </p>
+        </div>
+        <img src="img/sets/10302-high.png" id="historyMe">
+        <div class="historyCaption" id="historyMeCaption">
+          <h4 style="margin: 0;">Optimus Prime</h4>
+          <p style="margin: 7px 0;"><small>Most # of pieces in your collection | 1508 pcs</small>
+          </p>
+          
+        </div>
+      </div>
+      <div>
+      </div>
+      
+    </div>
+
+    <div class="cell col2 md1">
+      <div class="chart">
+        <canvas id="themeLineChart" height="200">
+          <p>Line Chart</p>
+        </canvas>
+      </div>
+    </div>
+
+    <div class="cell col2 md1">
+      <br><br><br><br><br><br><br>
+
+      <div class="chart" id="themeChart"></div>
+    </div>
+
+    <div class="cell col2 md1">
+      <div class="oldestSet">
+        <img src="img/system-in-play.png" id="oldestLego">
+        <div class="oldestCaption" id="oldestLegoCaption">
+          <h4 style="margin: 0;">System in Play</h4>
+          <p style="margin: 7px 0;">
+            <small>Oldest LEGO set of all time | 1955
+            </small>
+          </p>
+        </div>
+        <img src="img/60014-high.png" id="oldestMe">
+        <div class="oldestCaption" id="oldestMeCaption">
+          <h4 style="margin: 0;">Coast Guard Patrol</h4>
+          <p style="margin: 7px 0;">
+            <small>Oldest LEGO set in your collection | 2013
+            </small>
+          </p>
+        </div>
+      </div>
+      <!-- <div class="chart">
+        <canvas id="polarAreaChart" width="440" height="440">
+          <p>Polar Area Chart</p>
+        </canvas>
+      </div> -->
+
+      <!-- <div class="wordCloudsContainer">
+        <div id="wordCloud"></div>
+        <img src="img/word-cloud.png" id="wordCloudImg">
+      </div> -->
+    </div>
+  </div>
+
+  <div id="sectionShare" class="grid">
+    <div class="cell col1 md1">
+      <img src="img/lego.svg" style="width: 90px;">
+      <br><br><br>
+      <img src="img/orchidBg.png" class="hideMobile" id="endOrchid">
+      <h3>Thanks for visiting!</h3>
+      <br><br>
+      <h2 style="font-size: 3.9rem; margin: 1.7rem 0;">Marina's</h2>
+      <h1 style="font-size: 5.9rem;">Collection</h1>
+      <br><br>
+      <div>
+        <a href="https://www.lego.com/en-ca" target="_blank"><img src="img/buttonHome.svg" class="button" id="buttonHome"></a>
+        &nbsp;&nbsp;
+        <img src="img/buttonShare.svg" class="button" id="buttonShare" onclick="copyLink();">
+        <p id="shareText"><small>Copied!</small></p>
+      </div>
+    </div>
+  </div>
+
+  <div id="sectionEnd"></div>
+
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js" integrity="sha512-vc58qvvBdrDR4etbxMdlTt4GBQk1qjvyORR2nrsPsFPyrs+/u5c3+1Ct6upOgdZoIl7eq6k3a1UPDSNAQi/32A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+  <script src="script.js"></script>
+  <script src="chart.js"></script>
+</body>
+
+</html>

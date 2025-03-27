@@ -1,0 +1,1590 @@
+[
+  {
+    "x": "The Legend of Zelda",
+    "value": 1
+  },
+  {
+    "x": "Mini",
+    "value": 1
+  },
+  {
+    "x": "Horizon Adventures",
+    "value": 1
+  },
+  {
+    "x": "Aquazone",
+    "value": 1
+  },
+  {
+    "x": "Wednesday",
+    "value": 2
+  },
+  {
+    "x": "Universe",
+    "value": 2
+  },
+  {
+    "x": "The Powerpuff Girls",
+    "value": 2
+  },
+  {
+    "x": "Jurassic Park III",
+    "value": 2
+  },
+  {
+    "x": "Ghostbusters",
+    "value": 2
+  },
+  {
+    "x": "Fantastic Beasts",
+    "value": 2
+  },
+  {
+    "x": "Avatar: The Last Airbender",
+    "value": 2
+  },
+  {
+    "x": "Zooters",
+    "value": 3
+  },
+  {
+    "x": "Wolfpack",
+    "value": 3
+  },
+  {
+    "x": "Stranger Things",
+    "value": 3
+  },
+  {
+    "x": "Sofia the First",
+    "value": 3
+  },
+  {
+    "x": "Sculptures",
+    "value": 3
+  },
+  {
+    "x": "Miles From Tomorrowland",
+    "value": 3
+  },
+  {
+    "x": "Jurassic World: Fallen Kingdom",
+    "value": 3
+  },
+  {
+    "x": "Dark Forest",
+    "value": 3
+  },
+  {
+    "x": "Aquaraiders I",
+    "value": 3
+  },
+  {
+    "x": "Unitron",
+    "value": 4
+  },
+  {
+    "x": "Spybotics",
+    "value": 4
+  },
+  {
+    "x": "Speed Racer",
+    "value": 4
+  },
+  {
+    "x": "RoboForce",
+    "value": 4
+  },
+  {
+    "x": "Planes",
+    "value": 4
+  },
+  {
+    "x": "Marvel Super Heroes",
+    "value": 4
+  },
+  {
+    "x": "Inventor",
+    "value": 4
+  },
+  {
+    "x": "Fusion",
+    "value": 4
+  },
+  {
+    "x": "Forma",
+    "value": 4
+  },
+  {
+    "x": "Doc McStuffins",
+    "value": 4
+  },
+  {
+    "x": "DC Comics Super Heroes",
+    "value": 4
+  },
+  {
+    "x": "Aquasharks",
+    "value": 4
+  },
+  {
+    "x": "Wicked",
+    "value": 5
+  },
+  {
+    "x": "Stingrays",
+    "value": 5
+  },
+  {
+    "x": "Sports",
+    "value": 5
+  },
+  {
+    "x": "Speed Slammers",
+    "value": 5
+  },
+  {
+    "x": "Pirates",
+    "value": 5
+  },
+  {
+    "x": "Outback",
+    "value": 5
+  },
+  {
+    "x": "eLAB",
+    "value": 5
+  },
+  {
+    "x": "Dora the Explorer",
+    "value": 5
+  },
+  {
+    "x": "Despicable Me 4",
+    "value": 5
+  },
+  {
+    "x": "Botanicals",
+    "value": 5
+  },
+  {
+    "x": "Advent",
+    "value": 5
+  },
+  {
+    "x": "UCS",
+    "value": 6
+  },
+  {
+    "x": "Space Police I",
+    "value": 6
+  },
+  {
+    "x": "Soft Bricks",
+    "value": 6
+  },
+  {
+    "x": "Protectors",
+    "value": 6
+  },
+  {
+    "x": "Princess Castle",
+    "value": 6
+  },
+  {
+    "x": "Prince of Persia",
+    "value": 6
+  },
+  {
+    "x": "Launch Command",
+    "value": 6
+  },
+  {
+    "x": "Gas Station",
+    "value": 6
+  },
+  {
+    "x": "Fortnite",
+    "value": 6
+  },
+  {
+    "x": "Dolls",
+    "value": 6
+  },
+  {
+    "x": "Ben 10",
+    "value": 6
+  },
+  {
+    "x": "Angry Birds",
+    "value": 6
+  },
+  {
+    "x": "Mosaic",
+    "value": 7
+  },
+  {
+    "x": "Jumbo Bricks",
+    "value": 7
+  },
+  {
+    "x": "Jake and the Never Land Pirates",
+    "value": 7
+  },
+  {
+    "x": "Hydronauts",
+    "value": 7
+  },
+  {
+    "x": "Gabby's Dollhouse",
+    "value": 7
+  },
+  {
+    "x": "Forestmen",
+    "value": 7
+  },
+  {
+    "x": "Factory",
+    "value": 7
+  },
+  {
+    "x": "Blacktron I",
+    "value": 7
+  },
+  {
+    "x": "Black Falcons",
+    "value": 7
+  },
+  {
+    "x": "Alpha Team",
+    "value": 7
+  },
+  {
+    "x": "Vikings",
+    "value": 8
+  },
+  {
+    "x": "The Lone Ranger",
+    "value": 8
+  },
+  {
+    "x": "Thanksgiving",
+    "value": 8
+  },
+  {
+    "x": "Space Police II",
+    "value": 8
+  },
+  {
+    "x": "Mission Deep Freeze",
+    "value": 8
+  },
+  {
+    "x": "Iron Man",
+    "value": 8
+  },
+  {
+    "x": "Discovery",
+    "value": 8
+  },
+  {
+    "x": "DC Comics",
+    "value": 8
+  },
+  {
+    "x": "Classic Castle",
+    "value": 8
+  },
+  {
+    "x": "Brick Sketches",
+    "value": 8
+  },
+  {
+    "x": "Aquanauts",
+    "value": 8
+  },
+  {
+    "x": "X-Men",
+    "value": 9
+  },
+  {
+    "x": "World Racers",
+    "value": 9
+  },
+  {
+    "x": "Trolls: World Tour",
+    "value": 9
+  },
+  {
+    "x": "Time Cruisers",
+    "value": 9
+  },
+  {
+    "x": "Spyrius",
+    "value": 9
+  },
+  {
+    "x": "Space",
+    "value": 9
+  },
+  {
+    "x": "Royal Knights",
+    "value": 9
+  },
+  {
+    "x": "Pirates III",
+    "value": 9
+  },
+  {
+    "x": "Pharaoh's Quest",
+    "value": 9
+  },
+  {
+    "x": "Minions",
+    "value": 9
+  },
+  {
+    "x": "M:Tron",
+    "value": 9
+  },
+  {
+    "x": "Learning",
+    "value": 9
+  },
+  {
+    "x": "Hobby Sets",
+    "value": 9
+  },
+  {
+    "x": "Gears",
+    "value": 9
+  },
+  {
+    "x": "Exploriens",
+    "value": 9
+  },
+  {
+    "x": "Control Lab",
+    "value": 9
+  },
+  {
+    "x": "Cargo",
+    "value": 9
+  },
+  {
+    "x": "Avatar",
+    "value": 9
+  },
+  {
+    "x": "Aquaraiders II",
+    "value": 9
+  },
+  {
+    "x": "Action Wheelers",
+    "value": 9
+  },
+  {
+    "x": "Scooby-Doo",
+    "value": 10
+  },
+  {
+    "x": "Little Forest Friends",
+    "value": 10
+  },
+  {
+    "x": "Alien Conquest",
+    "value": 10
+  },
+  {
+    "x": "Res-Q",
+    "value": 11
+  },
+  {
+    "x": "Quatro",
+    "value": 11
+  },
+  {
+    "x": "Off-Road",
+    "value": 11
+  },
+  {
+    "x": "My Town",
+    "value": 11
+  },
+  {
+    "x": "Ice Planet 2002",
+    "value": 11
+  },
+  {
+    "x": "Gravity Games",
+    "value": 11
+  },
+  {
+    "x": "Team GB",
+    "value": 12
+  },
+  {
+    "x": "Mars Exploration",
+    "value": 12
+  },
+  {
+    "x": "Galaxy Squad",
+    "value": 12
+  },
+  {
+    "x": "Divers",
+    "value": 12
+  },
+  {
+    "x": "Dino Attack / Dino 2010",
+    "value": 12
+  },
+  {
+    "x": "DC Super Hero Girls",
+    "value": 12
+  },
+  {
+    "x": "Toolo",
+    "value": 13
+  },
+  {
+    "x": "Spidey and His Amazing Friends",
+    "value": 13
+  },
+  {
+    "x": "Playsets",
+    "value": 13
+  },
+  {
+    "x": "Overwatch",
+    "value": 13
+  },
+  {
+    "x": "Mickey Mouse",
+    "value": 13
+  },
+  {
+    "x": "Marvel",
+    "value": 13
+  },
+  {
+    "x": "Island Xtreme Stunts",
+    "value": 13
+  },
+  {
+    "x": "EV3",
+    "value": 13
+  },
+  {
+    "x": "Dragon Knights",
+    "value": 13
+  },
+  {
+    "x": "Agents",
+    "value": 13
+  },
+  {
+    "x": "Superman",
+    "value": 14
+  },
+  {
+    "x": "SpongeBob SquarePants",
+    "value": 14
+  },
+  {
+    "x": "Skylines",
+    "value": 14
+  },
+  {
+    "x": "Powered Up",
+    "value": 14
+  },
+  {
+    "x": "Monster Fighters",
+    "value": 14
+  },
+  {
+    "x": "Blacktron II",
+    "value": 14
+  },
+  {
+    "x": "Black Knights",
+    "value": 14
+  },
+  {
+    "x": "Animal Crossing",
+    "value": 14
+  },
+  {
+    "x": "Ultra Agents",
+    "value": 15
+  },
+  {
+    "x": "Pirates II",
+    "value": 15
+  },
+  {
+    "x": "The Muppets",
+    "value": 16
+  },
+  {
+    "x": "Sonic The Hedgehog",
+    "value": 16
+  },
+  {
+    "x": "Series 27 Minifigures",
+    "value": 16
+  },
+  {
+    "x": "Series 26 Minifigures",
+    "value": 16
+  },
+  {
+    "x": "Series 25 Minifigures",
+    "value": 16
+  },
+  {
+    "x": "Series 24 Minifigures",
+    "value": 16
+  },
+  {
+    "x": "Series 23 Minifigures",
+    "value": 16
+  },
+  {
+    "x": "Series 22 Minifigures",
+    "value": 16
+  },
+  {
+    "x": "Series 21 Minifigures",
+    "value": 16
+  },
+  {
+    "x": "Race",
+    "value": 16
+  },
+  {
+    "x": "Model Team",
+    "value": 16
+  },
+  {
+    "x": "Marvel Series 1",
+    "value": 16
+  },
+  {
+    "x": "Looney Tunes",
+    "value": 16
+  },
+  {
+    "x": "Little Robots",
+    "value": 16
+  },
+  {
+    "x": "Justice League",
+    "value": 16
+  },
+  {
+    "x": "Guardians of the Galaxy",
+    "value": 16
+  },
+  {
+    "x": "Fright Knights",
+    "value": 16
+  },
+  {
+    "x": "Dungeons & Dragons",
+    "value": 16
+  },
+  {
+    "x": "Constraction",
+    "value": 16
+  },
+  {
+    "x": "Airlines",
+    "value": 16
+  },
+  {
+    "x": "Throwbot Slizer",
+    "value": 17
+  },
+  {
+    "x": "Space Police III",
+    "value": 17
+  },
+  {
+    "x": "Rock Raiders",
+    "value": 17
+  },
+  {
+    "x": "Pirates of the Caribbean",
+    "value": 17
+  },
+  {
+    "x": "Mission Deep Sea",
+    "value": 17
+  },
+  {
+    "x": "Marvel Series 2",
+    "value": 17
+  },
+  {
+    "x": "Kingdoms",
+    "value": 17
+  },
+  {
+    "x": "Ferries",
+    "value": 17
+  },
+  {
+    "x": "Dinosaurs",
+    "value": 17
+  },
+  {
+    "x": "Thomas & Friends",
+    "value": 18
+  },
+  {
+    "x": "The Lord of the Rings",
+    "value": 18
+  },
+  {
+    "x": "Paradisa",
+    "value": 18
+  },
+  {
+    "x": "Mickey & Friends",
+    "value": 18
+  },
+  {
+    "x": "Hockey",
+    "value": 18
+  },
+  {
+    "x": "Competition",
+    "value": 18
+  },
+  {
+    "x": "Cities of Wonders",
+    "value": 18
+  },
+  {
+    "x": "Znap",
+    "value": 19
+  },
+  {
+    "x": "Xtra",
+    "value": 19
+  },
+  {
+    "x": "Winnie the Pooh",
+    "value": 19
+  },
+  {
+    "x": "UFO",
+    "value": 19
+  },
+  {
+    "x": "The Simpsons Series 2",
+    "value": 19
+  },
+  {
+    "x": "The Simpsons Series 1",
+    "value": 19
+  },
+  {
+    "x": "Series 9 Minifigures",
+    "value": 19
+  },
+  {
+    "x": "Series 8 Minifigures",
+    "value": 19
+  },
+  {
+    "x": "Series 7 Minifigures",
+    "value": 19
+  },
+  {
+    "x": "Series 6 Minifigures",
+    "value": 19
+  },
+  {
+    "x": "Series 5 Minifigures",
+    "value": 19
+  },
+  {
+    "x": "Series 4 Minifigures",
+    "value": 19
+  },
+  {
+    "x": "Series 3 Minifigures",
+    "value": 19
+  },
+  {
+    "x": "Series 20 Minifigures",
+    "value": 19
+  },
+  {
+    "x": "Series 2 Minifigures",
+    "value": 19
+  },
+  {
+    "x": "Series 17 Minifigures",
+    "value": 19
+  },
+  {
+    "x": "Series 16 Minifigures",
+    "value": 19
+  },
+  {
+    "x": "Series 15 Minifigures",
+    "value": 19
+  },
+  {
+    "x": "Series 14 Minifigures",
+    "value": 19
+  },
+  {
+    "x": "Series 13 Minifigures",
+    "value": 19
+  },
+  {
+    "x": "Series 12 Minifigures",
+    "value": 19
+  },
+  {
+    "x": "Series 11 Minifigures",
+    "value": 19
+  },
+  {
+    "x": "Series 1 Minifigures",
+    "value": 19
+  },
+  {
+    "x": "Power Functions",
+    "value": 19
+  },
+  {
+    "x": "Minitalia",
+    "value": 19
+  },
+  {
+    "x": "LEGO Art",
+    "value": 19
+  },
+  {
+    "x": "Insectoids",
+    "value": 19
+  },
+  {
+    "x": "Harry Potter and Fantastic Beasts Series 2",
+    "value": 19
+  },
+  {
+    "x": "Futuron",
+    "value": 19
+  },
+  {
+    "x": "Dino Island",
+    "value": 19
+  },
+  {
+    "x": "DFB Minifigures",
+    "value": 19
+  },
+  {
+    "x": "DC Super Heroes",
+    "value": 19
+  },
+  {
+    "x": "Series 19 Minifigures",
+    "value": 20
+  },
+  {
+    "x": "Series 18 Minifigures",
+    "value": 20
+  },
+  {
+    "x": "Series 10 Minifigures",
+    "value": 20
+  },
+  {
+    "x": "Modular Buildings",
+    "value": 20
+  },
+  {
+    "x": "McDonalds",
+    "value": 20
+  },
+  {
+    "x": "Farm",
+    "value": 20
+  },
+  {
+    "x": "Serious Play",
+    "value": 21
+  },
+  {
+    "x": "Master Builder Academy",
+    "value": 21
+  },
+  {
+    "x": "Mars Mission",
+    "value": 21
+  },
+  {
+    "x": "LEGO Originals",
+    "value": 21
+  },
+  {
+    "x": "Knights Kingdom I",
+    "value": 21
+  },
+  {
+    "x": "Galidor",
+    "value": 21
+  },
+  {
+    "x": "Extreme Team",
+    "value": 21
+  },
+  {
+    "x": "Disney Series 2",
+    "value": 21
+  },
+  {
+    "x": "Disney Series 1",
+    "value": 21
+  },
+  {
+    "x": "Building",
+    "value": 21
+  },
+  {
+    "x": "Boat",
+    "value": 21
+  },
+  {
+    "x": "Space Port",
+    "value": 22
+  },
+  {
+    "x": "Disney 100",
+    "value": 22
+  },
+  {
+    "x": "City Center",
+    "value": 22
+  },
+  {
+    "x": "The LEGO Batman Movie Series 2",
+    "value": 23
+  },
+  {
+    "x": "The LEGO Batman Movie Series 1",
+    "value": 23
+  },
+  {
+    "x": "The Hobbit",
+    "value": 23
+  },
+  {
+    "x": "Teenage Mutant Ninja Turtles",
+    "value": 23
+  },
+  {
+    "x": "Rattles",
+    "value": 23
+  },
+  {
+    "x": "Power Miners",
+    "value": 23
+  },
+  {
+    "x": "Indiana Jones",
+    "value": 23
+  },
+  {
+    "x": "Dino",
+    "value": 23
+  },
+  {
+    "x": "4 Juniors",
+    "value": 23
+  },
+  {
+    "x": "X-Pod",
+    "value": 24
+  },
+  {
+    "x": "Harbor",
+    "value": 24
+  },
+  {
+    "x": "Atlantis",
+    "value": 24
+  },
+  {
+    "x": "Valentine",
+    "value": 25
+  },
+  {
+    "x": "RC",
+    "value": 25
+  },
+  {
+    "x": "Harry Potter and Fantastic Beasts Series 1",
+    "value": 25
+  },
+  {
+    "x": "Unikitty!",
+    "value": 26
+  },
+  {
+    "x": "Lion Knights",
+    "value": 26
+  },
+  {
+    "x": "Life On Mars",
+    "value": 26
+  },
+  {
+    "x": "Jungle",
+    "value": 26
+  },
+  {
+    "x": "Desert",
+    "value": 26
+  },
+  {
+    "x": "Toy Story",
+    "value": 27
+  },
+  {
+    "x": "Stuntz",
+    "value": 27
+  },
+  {
+    "x": "Coast Guard",
+    "value": 27
+  },
+  {
+    "x": "Orient Expedition",
+    "value": 28
+  },
+  {
+    "x": "Mindstorms",
+    "value": 28
+  },
+  {
+    "x": "Jack Stone",
+    "value": 28
+  },
+  {
+    "x": "RoboRiders",
+    "value": 29
+  },
+  {
+    "x": "Speedorz",
+    "value": 30
+  },
+  {
+    "x": "Hospital",
+    "value": 30
+  },
+  {
+    "x": "Vehicle",
+    "value": 31
+  },
+  {
+    "x": "SPIKE",
+    "value": 31
+  },
+  {
+    "x": "Fantasy Era",
+    "value": 31
+  },
+  {
+    "x": "Chinese Traditional Festivals",
+    "value": 31
+  },
+  {
+    "x": "Bob the Builder",
+    "value": 31
+  },
+  {
+    "x": "Super Heroes DC",
+    "value": 32
+  },
+  {
+    "x": "Pick A Model",
+    "value": 32
+  },
+  {
+    "x": "Ninja",
+    "value": 32
+  },
+  {
+    "x": "Juniors",
+    "value": 32
+  },
+  {
+    "x": "Homemaker",
+    "value": 32
+  },
+  {
+    "x": "Hidden Side",
+    "value": 32
+  },
+  {
+    "x": "Ferrari",
+    "value": 32
+  },
+  {
+    "x": "Castle",
+    "value": 32
+  },
+  {
+    "x": "Building Set with People",
+    "value": 32
+  },
+  {
+    "x": "Villains",
+    "value": 33
+  },
+  {
+    "x": "Hero Factory",
+    "value": 34
+  },
+  {
+    "x": "Halloween",
+    "value": 34
+  },
+  {
+    "x": "Modulex",
+    "value": 35
+  },
+  {
+    "x": "Frozen",
+    "value": 35
+  },
+  {
+    "x": "Basketball",
+    "value": 35
+  },
+  {
+    "x": "Western",
+    "value": 36
+  },
+  {
+    "x": "Value Packs",
+    "value": 36
+  },
+  {
+    "x": "RCX",
+    "value": 36
+  },
+  {
+    "x": "WeDo",
+    "value": 37
+  },
+  {
+    "x": "Early Creator",
+    "value": 37
+  },
+  {
+    "x": "Arctic",
+    "value": 37
+  },
+  {
+    "x": "Expert Builder",
+    "value": 39
+  },
+  {
+    "x": "Town Plan",
+    "value": 41
+  },
+  {
+    "x": "Town Jr.",
+    "value": 41
+  },
+  {
+    "x": "Collectible Minifigures",
+    "value": 41
+  },
+  {
+    "x": "Elves",
+    "value": 42
+  },
+  {
+    "x": "The LEGO Batman Movie",
+    "value": 44
+  },
+  {
+    "x": "Heroes",
+    "value": 44
+  },
+  {
+    "x": "Bricktober",
+    "value": 44
+  },
+  {
+    "x": "World City",
+    "value": 46
+  },
+  {
+    "x": "Ultimate Collector Series",
+    "value": 46
+  },
+  {
+    "x": "Games",
+    "value": 47
+  },
+  {
+    "x": "Designer Sets",
+    "value": 47
+  },
+  {
+    "x": "Architecture",
+    "value": 47
+  },
+  {
+    "x": "BrickLink Designer Program",
+    "value": 48
+  },
+  {
+    "x": "VIDIYO",
+    "value": 50
+  },
+  {
+    "x": "Creator Expert",
+    "value": 50
+  },
+  {
+    "x": "The LEGO Movie",
+    "value": 51
+  },
+  {
+    "x": "Make & Create",
+    "value": 51
+  },
+  {
+    "x": "System",
+    "value": 52
+  },
+  {
+    "x": "Exo-Force",
+    "value": 52
+  },
+  {
+    "x": "Dreamzzz",
+    "value": 52
+  },
+  {
+    "x": "12V",
+    "value": 52
+  },
+  {
+    "x": "Studios",
+    "value": 53
+  },
+  {
+    "x": "NXT",
+    "value": 53
+  },
+  {
+    "x": "Classic Basic",
+    "value": 53
+  },
+  {
+    "x": "Tabletop Games and Puzzles",
+    "value": 54
+  },
+  {
+    "x": "Easter",
+    "value": 54
+  },
+  {
+    "x": "Traffic",
+    "value": 55
+  },
+  {
+    "x": "Disney",
+    "value": 55
+  },
+  {
+    "x": "Legoland Parks",
+    "value": 56
+  },
+  {
+    "x": "Cars",
+    "value": 57
+  },
+  {
+    "x": "Airport",
+    "value": 57
+  },
+  {
+    "x": "The LEGO Ninjago Movie",
+    "value": 58
+  },
+  {
+    "x": "Monkie Kid",
+    "value": 58
+  },
+  {
+    "x": "Playhouse",
+    "value": 59
+  },
+  {
+    "x": "HO 1:87 Vehicles",
+    "value": 61
+  },
+  {
+    "x": "Freestyle",
+    "value": 64
+  },
+  {
+    "x": "The LEGO Movie II",
+    "value": 65
+  },
+  {
+    "x": "Icons",
+    "value": 66
+  },
+  {
+    "x": "Pirates I",
+    "value": 67
+  },
+  {
+    "x": "LEGO Exclusive",
+    "value": 67
+  },
+  {
+    "x": "Dimensions",
+    "value": 68
+  },
+  {
+    "x": "Bricks & More",
+    "value": 68
+  },
+  {
+    "x": "Audio and Visual Media",
+    "value": 72
+  },
+  {
+    "x": "Scala",
+    "value": 73
+  },
+  {
+    "x": "Super Heroes Marvel",
+    "value": 75
+  },
+  {
+    "x": "Knights Kingdom II",
+    "value": 76
+  },
+  {
+    "x": "Classic",
+    "value": 76
+  },
+  {
+    "x": "Legoville",
+    "value": 77
+  },
+  {
+    "x": "Train",
+    "value": 80
+  },
+  {
+    "x": "LEGO Ideas and CUUSOO",
+    "value": 80
+  },
+  {
+    "x": "Clikits",
+    "value": 85
+  },
+  {
+    "x": "Speed Champions",
+    "value": 86
+  },
+  {
+    "x": "Posters and Art Prints",
+    "value": 86
+  },
+  {
+    "x": "4.5V",
+    "value": 86
+  },
+  {
+    "x": "Classic Space",
+    "value": 89
+  },
+  {
+    "x": "Belville",
+    "value": 89
+  },
+  {
+    "x": "DOTS",
+    "value": 93
+  },
+  {
+    "x": "Legends of Chima",
+    "value": 98
+  },
+  {
+    "x": "Educational and Dacta",
+    "value": 100
+  },
+  {
+    "x": "9V",
+    "value": 100
+  },
+  {
+    "x": "Trains",
+    "value": 101
+  },
+  {
+    "x": "Universal Building Set",
+    "value": 103
+  },
+  {
+    "x": "Spider-Man",
+    "value": 104
+  },
+  {
+    "x": "Soccer",
+    "value": 104
+  },
+  {
+    "x": "Ideas Books",
+    "value": 104
+  },
+  {
+    "x": "Fabuland",
+    "value": 105
+  },
+  {
+    "x": "FIRST LEGO League",
+    "value": 107
+  },
+  {
+    "x": "Nexo Knights",
+    "value": 110
+  },
+  {
+    "x": "Jurassic World",
+    "value": 110
+  },
+  {
+    "x": "Database Sets",
+    "value": 114
+  },
+  {
+    "x": "Samsonite",
+    "value": 117
+  },
+  {
+    "x": "Plush Toys",
+    "value": 118
+  },
+  {
+    "x": "Construction",
+    "value": 118
+  },
+  {
+    "x": "Seasonal",
+    "value": 119
+  },
+  {
+    "x": "Bag and Luggage Tags",
+    "value": 119
+  },
+  {
+    "x": "Mixels",
+    "value": 121
+  },
+  {
+    "x": "Fire",
+    "value": 122
+  },
+  {
+    "x": "Disney Princess",
+    "value": 126
+  },
+  {
+    "x": "Avengers",
+    "value": 126
+  },
+  {
+    "x": "Batman",
+    "value": 130
+  },
+  {
+    "x": "Other",
+    "value": 134
+  },
+  {
+    "x": "Bulk Bricks",
+    "value": 136
+  },
+  {
+    "x": "Primo",
+    "value": 137
+  },
+  {
+    "x": "Magnets",
+    "value": 140
+  },
+  {
+    "x": "Duplo",
+    "value": 152
+  },
+  {
+    "x": "Monthly Mini Model Build",
+    "value": 153
+  },
+  {
+    "x": "Minecraft",
+    "value": 158
+  },
+  {
+    "x": "Super Mario",
+    "value": 169
+  },
+  {
+    "x": "Storage",
+    "value": 169
+  },
+  {
+    "x": "Non-fiction Books",
+    "value": 172
+  },
+  {
+    "x": "Christmas",
+    "value": 174
+  },
+  {
+    "x": "Brickheadz",
+    "value": 174
+  },
+  {
+    "x": "Harry Potter",
+    "value": 184
+  },
+  {
+    "x": "Racers",
+    "value": 196
+  },
+  {
+    "x": "Police",
+    "value": 200
+  },
+  {
+    "x": "Basic",
+    "value": 201
+  },
+  {
+    "x": "Promotional",
+    "value": 203
+  },
+  {
+    "x": "LEGO Brand Store",
+    "value": 203
+  },
+  {
+    "x": "Clocks and Watches",
+    "value": 216
+  },
+  {
+    "x": "Creator",
+    "value": 224
+  },
+  {
+    "x": "Role Play Toys and Costumes",
+    "value": 231
+  },
+  {
+    "x": "Activity Books",
+    "value": 239
+  },
+  {
+    "x": "Creator 3-in-1",
+    "value": 243
+  },
+  {
+    "x": "City",
+    "value": 264
+  },
+  {
+    "x": "Duplo and Explore",
+    "value": 287
+  },
+  {
+    "x": "Video Games and Accessories",
+    "value": 291
+  },
+  {
+    "x": "Service Packs",
+    "value": 363
+  },
+  {
+    "x": "Supplemental",
+    "value": 372
+  },
+  {
+    "x": "Story Books",
+    "value": 375
+  },
+  {
+    "x": "Basic Set",
+    "value": 387
+  },
+  {
+    "x": "Activity Books with LEGO Parts",
+    "value": 410
+  },
+  {
+    "x": "Classic Town",
+    "value": 411
+  },
+  {
+    "x": "Town",
+    "value": 422
+  },
+  {
+    "x": "Bionicle",
+    "value": 447
+  },
+  {
+    "x": "Houseware",
+    "value": 474
+  },
+  {
+    "x": "Stationery and Office Supplies",
+    "value": 555
+  },
+  {
+    "x": "Ninjago",
+    "value": 568
+  },
+  {
+    "x": "Friends",
+    "value": 640
+  },
+  {
+    "x": "Key Chain",
+    "value": 774
+  },
+  {
+    "x": "Technic",
+    "value": 905
+  },
+  {
+    "x": "Star Wars",
+    "value": 979
+  },
+  {
+    "x": "Gear",
+    "value": 1224
+  }
+]
